@@ -1,20 +1,123 @@
 [
     {
         "id": 1,
-        "name": "Áo thun unisex",
-        "description": "Áo thun phong cách trẻ trung, chất liệu cotton thoáng mát.",
-        "image": "/images/image2.jpg"
+        "name": "Áo Local Battellkid Real",
+        "description": "",
+        "image": "/library/images/sp1.jpg",
+        "video": "/library/video/sp1.mp4",
+        "images": [
+            "/library/images/sp11.jpg",
+            "/library/images/sp111.jpg"
+        ]
     },
     {
         "id": 2,
-        "name": "Quần jeans ống suông",
-        "description": "Quần jeans thời trang, form dáng chuẩn, dễ phối đồ.",
-        "image": "/images/image3.jpg"
+        "name": "Áo Local Battellkid Real",
+        "description": "",
+        "image": "/library/images/sp2.jpg",
+        "video": "/library/video/sp2.mp4",
+        "images": [
+            "/library/images/sp22.jpg"
+        ]
     },
     {
         "id": 3,
-        "name": "Giày sneaker trắng",
-        "description": "Giày sneaker phong cách Hàn Quốc, đế cao su bền bỉ.",
-        "image": "/images/image4.jpg"
+        "name": "Áo Local Battellkid Real",
+        "description": "",
+        "image": "/library/images/sp3.jpg",
+        "video": "/library/video/sp3.mp4",
+        "images": [
+            "/library/images/sp33.jpg",
+            "/library/images/sp333.jpg",
+            "/library/images/sp3333.jpg",
+            "/library/images/sp33333.jpg",
+            "/library/images/sp333333.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Áo Local Battellkid Real",
+        "description": "Chất liệu thêu xù",
+        "image": "/library/images/sp4.jpg",
+        "video": "/library/video/sp4.mp4",
+        "images": [
+            "/library/images/sp44.jpg",
+            "/library/images/sp444.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Áo Local Battellkid Real",
+        "description": "Chất liệu toàn bộ thêu",
+        "image": "/library/images/sp5.jpg",
+        "video": "",
+        "images": [
+            "/library/images/sp55.jpg",
+            "/library/images/sp555.jpg",
+            "/library/images/sp5555.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Quần loe nhẹ local ZLAYCO Real",
+        "description": "",
+        "image": "/library/images/sp6.jpg",
+        "video": "",
+        "images": [
+            "/library/images/sp66.jpg",
+            "/library/images/sp666.jpg",
+            "/library/images/sp6666.jpg",
+            "/library/images/sp66666.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Quần loe form bó local ZLAYCO",
+        "description": "",
+        "image": "/library/images/sp7.jpg",
+        "video": "/library/video/sp7.mp4",
+        "images": [
+            ""
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Quần loe to",
+        "description": "",
+        "image": "/library/images/sp8.jpg",
+        "video": "/library/video/sp8.mp4",
+        "images": [
+            "/library/images/sp88.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Quần loe to",
+        "description": "",
+        "image": "/library/images/sp9.jpg",
+        "video": "/library/video/sp9.mp4",
+        "images": [
+            ""
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Áo lót trong lộ chữ",
+        "description": "",
+        "image": "/library/images/sp10.jpg",
+        "video": "/library/video/sp10.mp4",
+        "images": [
+            ""
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Quần loe to",
+        "description": "",
+        "image": "/library/images/sp12.jpg",
+        "video": "",
+        "images": [
+            ""
+        ]
     }
 ]
