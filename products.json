@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Áo thun unisex",
+        "description": "Áo thun phong cách trẻ trung, chất liệu cotton thoáng mát.",
+        "image": "/images/image2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Quần jeans ống suông",
+        "description": "Quần jeans thời trang, form dáng chuẩn, dễ phối đồ.",
+        "image": "/images/image3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Giày sneaker trắng",
+        "description": "Giày sneaker phong cách Hàn Quốc, đế cao su bền bỉ.",
+        "image": "/images/image4.jpg"
+    }
+]

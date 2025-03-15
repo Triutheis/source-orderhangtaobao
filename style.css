@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f7f9fc; /* Màu nền nhạt */
+    color: #2d3748; /* Màu chữ chính */
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.fade-in { animation: fadeIn 1s ease-in; }
+.slide-up { animation: slideUp 1s ease-out; }
+.pulse { animation: pulse 1.5s infinite; }
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff6f61, #feca57); /* Gradient cam san hô - vàng */
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(255, 111, 97, 0.3); /* Ánh cam nhẹ */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #4a90e2; /* Xanh dương khi hover */
+}
+
+@media (max-width: 768px) {
+    header .container { flex-direction: column; }
+    header nav { margin-top: 1rem; }
+    header nav a { margin: 0 0.5rem; }
+}
+
+/* Giới thiệu */
+.intro {
+    background: url('https://via.placeholder.com/1200x500?text=Order+Taobao') no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 120px 0;
+    margin-top: 60px;
+    position: relative;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 111, 97, 0.6), rgba(74, 144, 226, 0.6)); /* Gradient overlay */
+}
+
+.intro .container {
+    position: relative;
+    z-index: 1;
+}
+
+.intro h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.intro p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .intro { padding: 80px 0; }
+    .intro h2 { font-size: 2rem; }
+    .intro p { font-size: 1rem; }
+}
+
+/* Button chung */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #ff6f61, #feca57); /* Gradient nút */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 3px 10px rgba(255, 111, 97, 0.3);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #e64a19, #f7b731); /* Gradient hover */
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.5);
+}
+
+/* Sản phẩm */
+.products {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #ff6f61; /* Màu cam san hô */
+    text-shadow: 1px 1px 3px rgba(255, 111, 97, 0.2);
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.product-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.1); /* Ánh xanh nhẹ */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3); /* Ánh xanh đậm hơn */
+}
+
+.product-item img {
+    max-width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-item:hover img {
+    transform: scale(1.05);
+}
+
+.product-item h3 {
+    font-size: 1.4rem;
+    margin: 1rem 0 0.5rem;
+    color: #2d3748;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #718096; /* Xám nhẹ */
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+    .product-item { padding: 1rem; }
+    .product-item img { height: 180px; }
+}
+
+/* TikTok */
+.tiktok {
+    padding: 80px 0;
+    background: #f7f9fc;
+    text-align: center; /* Đảm bảo mọi nội dung con căn giữa */
+}
+
+.tiktok h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4a90e2; /* Xanh dương */
+    text-shadow: 1px 1px 3px rgba(74, 144, 226, 0.2);
+}
+
+.tiktok p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.tiktok iframe {
+    width: 100%;
+    max-width: 500px; /* Giới hạn chiều rộng tối đa */
+    height: 600px;
+    margin: 2rem auto; /* Căn giữa ngang */
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.2); /* Ánh cam nhẹ */
+    display: block; /* Quan trọng: đảm bảo iframe là block và căn giữa */
+}
+
+@media (max-width: 768px) {
+    .tiktok iframe {
+        height: 400px; /* Giảm chiều cao trên mobile */
+    }
+}
+/* Liên hệ */
+.contact {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #ff6f61; /* Cam san hô */
+    text-shadow: 1px 1px 3px rgba(255, 111, 97, 0.2);
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    background: #f7f9fc;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.1); /* Ánh xanh nhẹ */
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.contact-info a {
+    color: #4a90e2; /* Xanh dương */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #2b6cb0; /* Xanh đậm hơn */
+}
+
+@media (max-width: 768px) {
+    .contact-info { padding: 1.5rem; }
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #2d3748, #4a5568); /* Gradient xám đậm */
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
