@@ -119,5 +119,29 @@
         "images": [
             ""
         ]
+    },
+    {
+        "id": 12,
+        "name": "Cặp Jordan Real",
+        "description": "",
+        "image": "/library/images/sp13.jpg",
+        "video": "",
+        "images": [
+            "/library/images/sp133.jpg",
+            "/library/images/sp1333.jpg",
+            "/library/images/sp13333.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "",
+        "description": "",
+        "image": "/library/images/sp14.jpg",
+        "video": "",
+        "images": [
+            "/library/images/sp144.jpg",
+            "/library/images/sp1444.jpg",
+            "/library/images/sp14444.jpg"
+        ]
     }
 ]
