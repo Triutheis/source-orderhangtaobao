@@ -6,6 +6,7 @@
         "image": "/library/images/sp1.jpg",
         "video": "/library/video/sp1.mp4",
         "images": [
+            "/library/images/sp1.jpg",
             "/library/images/sp11.jpg",
             "/library/images/sp111.jpg"
         ]
@@ -17,6 +18,7 @@
         "image": "/library/images/sp2.jpg",
         "video": "/library/video/sp2.mp4",
         "images": [
+            "/library/images/sp2.jpg",
             "/library/images/sp22.jpg"
         ]
     },
@@ -27,6 +29,7 @@
         "image": "/library/images/sp3.jpg",
         "video": "/library/video/sp3.mp4",
         "images": [
+            "/library/images/sp3.jpg",
             "/library/images/sp33.jpg",
             "/library/images/sp333.jpg",
             "/library/images/sp3333.jpg",
@@ -41,6 +44,7 @@
         "image": "/library/images/sp4.jpg",
         "video": "/library/video/sp4.mp4",
         "images": [
+            "/library/images/sp4.jpg",
             "/library/images/sp44.jpg",
             "/library/images/sp444.jpg"
         ]
@@ -52,6 +56,7 @@
         "image": "/library/images/sp5.jpg",
         "video": "",
         "images": [
+            "/library/images/sp5.jpg",
             "/library/images/sp55.jpg",
             "/library/images/sp555.jpg",
             "/library/images/sp5555.jpg"
@@ -64,6 +69,7 @@
         "image": "/library/images/sp6.jpg",
         "video": "",
         "images": [
+            "/library/images/sp6.jpg",
             "/library/images/sp66.jpg",
             "/library/images/sp666.jpg",
             "/library/images/sp6666.jpg",
@@ -77,7 +83,7 @@
         "image": "/library/images/sp7.jpg",
         "video": "/library/video/sp7.mp4",
         "images": [
-            ""
+            "/library/images/sp7.jpg"
         ]
     },
     {
@@ -87,6 +93,7 @@
         "image": "/library/images/sp8.jpg",
         "video": "/library/video/sp8.mp4",
         "images": [
+            "/library/images/sp8.jpg",
             "/library/images/sp88.jpg"
         ]
     },
@@ -97,7 +104,7 @@
         "image": "/library/images/sp9.jpg",
         "video": "/library/video/sp9.mp4",
         "images": [
-            ""
+            "/library/images/sp9.jpg"
         ]
     },
     {
@@ -107,7 +114,7 @@
         "image": "/library/images/sp10.jpg",
         "video": "/library/video/sp10.mp4",
         "images": [
-            ""
+            "/library/images/sp10.jpg"
         ]
     },
     {
@@ -117,7 +124,7 @@
         "image": "/library/images/sp12.jpg",
         "video": "",
         "images": [
-            ""
+            "/library/images/sp12.jpg"
         ]
     },
     {
@@ -127,6 +134,7 @@
         "image": "/library/images/sp13.jpg",
         "video": "",
         "images": [
+            "/library/images/sp13.jpg",
             "/library/images/sp133.jpg",
             "/library/images/sp1333.jpg",
             "/library/images/sp13333.jpg"
@@ -139,6 +147,7 @@
         "image": "/library/images/sp14.jpg",
         "video": "",
         "images": [
+            "/library/images/sp14.jpg",
             "/library/images/sp144.jpg",
             "/library/images/sp1444.jpg",
             "/library/images/sp14444.jpg"
